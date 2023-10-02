@@ -1,6 +1,8 @@
 <?php
-$name= 'test';
 
-$$name = "bonjour";
+function test($name = '', $firstname ='') {
+    echo "$name $firstname";
+}
 
-echo $test;
+
+test(firstname: 'sellaouti');
